@@ -75,7 +75,7 @@
     margin-top: -5px;
 }
 .able> input{
-    width: 370px;
+    width: 35%;
     height: 60px;
     background-color: rgba(26, 23, 23, 0.644);
     border: 1px solid rgb(158, 128, 128);
@@ -135,9 +135,9 @@
     background-repeat: no-repeat;
     background-size: cover;
     margin-top: 50px;
-    /* animation-name: pictures;
+    animation-name: pictures;
     animation-duration: 5s;
-    animation-iteration-count: infinite; */
+    animation-iteration-count: infinite;
     
 }
 @keyframes pictures{
@@ -198,9 +198,9 @@
     background-repeat: no-repeat;
     background-size: contain;
     background-position: right;
-    /* animation-name: stranger;
+    animation-name: stranger;
     animation-duration: 3s;
-    animation-iteration-count: infinite; */
+    animation-iteration-count: infinite;
 }
 
 @keyframes stranger{
@@ -319,13 +319,14 @@
     gap: 10px;
 }
 .quest{
-    width: 1070px;
+    width: 80%;
     height: 85px;
     background-color: rgb(45, 44, 44);
     margin-left: 170px;
     display: flex;
     align-items: center;
     padding-left: 25px;
+    gap: 50%;
 }
 .quest> p{
     font-size: 25px;
@@ -353,7 +354,7 @@
     padding-top: 20px;
 }
 .able2> input{
-    width: 370px;
+    width: 30%;
     height: 60px;
     background-color: rgba(26, 23, 23, 0.644);
     border: 1px solid rgb(158, 128, 128);
@@ -380,4 +381,77 @@
 .able2 > button:hover{
     cursor: pointer;
     background-color: rgb(165, 4, 4);
+}
+
+
+.seventh{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    gap: 25px;
+}
+.anchor{
+    width: 15%;
+    height: 75%;
+    /* border: steelblue solid; */
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    color: rgb(169, 167, 167);
+    padding-left: 20px;
+    padding-top: 50px;
+    margin-top: 50px;
+    margin-left: 35px;
+}
+.anchor2{
+    width: 20%;
+    height: 75%;
+    /* border: steelblue solid; */
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    color: rgb(169, 167, 167);
+    padding-left: 50px;
+    margin-top: 70px;
+    margin-left: 100px;
+}
+.anchor> a{
+    text-decoration: underline;
+    color: rgb(169, 167, 167);
+}
+.anchor2> a{
+    text-decoration: underline;
+    color: rgb(169, 167, 167);
+}
+.anchor2> select{
+    width: 60%;
+    height: 16%;
+    background-color: rgba(41, 38, 38, 0.455);
+    color: white;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 17px;
+    font-weight: bolder;
+    color: rgb(169, 167, 167);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1200px){
+    
+
 }
